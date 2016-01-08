@@ -8,9 +8,9 @@ namespace contactBook
 {
     public class Contact : Person
     {
-        string name;
-        long phoneNumber;
-        string email;
+        private string name;
+        private long phoneNumber;
+        private string email;
         public Contact(string contactName, long contactPhone)
         {
             name = contactName;

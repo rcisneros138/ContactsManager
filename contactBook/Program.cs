@@ -10,9 +10,10 @@ namespace contactBook
     {
         static void Main(string[] args)
         {
+
             UserInterface userInterface = new UserInterface();
             userInterface.BeginUI();
-          
+
         }
     }
 }

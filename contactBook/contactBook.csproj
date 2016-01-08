@@ -46,6 +46,7 @@
     <Compile Include="Contact.cs" />
     <Compile Include="ContactCreator.cs" />
     <Compile Include="ContactManager.cs" />
+    <Compile Include="FileWriter.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

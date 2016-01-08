@@ -21,6 +21,7 @@ namespace contactBook
         public Contact createNewContact(string name, long phoneNumber)
         {
             Contact createdContact = new Contact(name, phoneNumber);
+            FileManager.saveContacts(name, phoneNumber);
             return createdContact;
         }
     }

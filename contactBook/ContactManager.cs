@@ -8,7 +8,7 @@ namespace contactBook
 {
    public class ContactManager<tkey, tvalue>
     {
-        Dictionary<tkey, tvalue> contactInfo;
+        private Dictionary<tkey, tvalue> contactInfo;
         private tvalue name;
 
         public ContactManager()
@@ -36,6 +36,12 @@ namespace contactBook
         {
             contactInfo.Add(phoneNumber, name);
         }
+
+       
+        
+        
+        
+
 
         
     }
